@@ -1,8 +1,13 @@
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home/Home";
+
 const App = () => {
   return (
-    <div>
-      <h1 className="text-4xl text-center">GetSync</h1>
-    </div>
+    <>
+      <Routes>
+        <Route index element={<Home />} />
+      </Routes>
+    </>
   );
 };
 
