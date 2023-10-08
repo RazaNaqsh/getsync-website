@@ -9,7 +9,7 @@ import share from "../assets/share.png";
 const Header = () => {
   return (
     <div className="relative">
-      <div className="relative h-[550px] overflow-hidden">
+      <div className="relative h-[600px] overflow-hidden">
         <div className="absolute -z-10 w-full">
           <img src={bg} className="w-full h-[600px]" alt="" />
         </div>
@@ -23,7 +23,7 @@ const Header = () => {
         />
         <img src={tie} className="absolute right-0 top-40" alt="" />
       </div>
-      <button className="absolute -bottom-7 py-3 translate-x-[700px] w-[350px] rounded-full  bg-white border-2 border-t-[3px] border-black border-r-4 border-b-[6px] font-bold text-lg flex justify-center gap-8 items-center">
+      <button className="absolute -bottom-7 py-3 translate-x-[680px] w-[350px] rounded-full  bg-white border-2 border-t-[3px] border-black border-r-4 border-b-[6px] font-bold text-lg flex justify-center gap-8 items-center">
         <p>JOIN NOW</p>
         <img src={share} alt="" />
       </button>
