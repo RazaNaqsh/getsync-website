@@ -1,10 +1,10 @@
-import Header from "../../components/Header";
+import Hero from "../../components/Hero";
 import JoinSection from "../../components/JoinSection";
 
 const Home = () => {
   return (
     <div>
-      <Header />
+      <Hero />
       <JoinSection />
     </div>
   );
