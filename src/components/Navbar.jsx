@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav>
       <div className="w-[90%] mx-auto flex px-4 py-6 justify-between items-center">
         <div>
-          <img className="object-cover" src={logo} alt="logo" />
+          <img className="w-full" src={logo} alt="logo" />
         </div>
         <div>
           <ul className="flex text-lg font-sans  gap-10">

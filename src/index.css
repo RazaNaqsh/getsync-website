@@ -1,6 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=DM+Serif+Display&display=swap");
 @import url("https://fonts.cdnfonts.com/css/helvetica-neue-55");
+@import url("https://fonts.cdnfonts.com/css/sedan-sc");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Sedan-SC";
+  src: url("./assets/fonts/webfonts_Sedan-SC/Sedan-SC.ttf.woff") format("woff"),
+    url("./assets/fonts/webfonts_Sedan-SC/Sedan-SC.ttf.svg#Sedan-SC")
+      format("svg"),
+    url("./assets/fonts/webfonts_Sedan-SC/Sedan-SC.ttf.eot"),
+    url("./assets/fonts/webfonts_Sedan-SC/Sedan-SC.ttf.eot?#iefix")
+      format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
