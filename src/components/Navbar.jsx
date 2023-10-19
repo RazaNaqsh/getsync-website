@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div className="w-[85%] mx-auto flex px-4 py-6 justify-between items-center">
+      <div className="w-[90%] mx-auto flex px-4 py-6 justify-between items-center">
         <div>
           <img className="object-cover" src={logo} alt="logo" />
         </div>

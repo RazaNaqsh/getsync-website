@@ -19,13 +19,13 @@ const Header = () => {
 
         <img src={scroll} className="relative top-20 block mx-auto " alt="" />
 
-        <img src={cup} className="absolute left-0 top-36" alt="" />
+        <img src={cup} className="absolute left-0 top-40" alt="" />
         <img
           src={line}
-          className="absolute translate-x-[247px] -translate-y-[466px]  w-[73%]"
+          className="absolute translate-x-[247px] -translate-y-[450px]  w-[73%]"
           alt=""
         />
-        <img src={tie} className="absolute right-0 top-44" alt="" />
+        <img src={tie} className="absolute right-0 top-48" alt="" />
       </div>
 
       <div className="px-10 relative z-30 pt-10 pb-4 w-[85%] -mt-14 rounded-[20px] mx-auto bg-white font-helvetica flex border-[2px] border-black justify-around items-center">
