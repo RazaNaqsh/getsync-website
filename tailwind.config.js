@@ -6,6 +6,7 @@ export default {
       fontFamily: {
         caveat: ["Caveat Brush", "cursive"],
         serifDisplay: ["DM Serif Display", "serif"],
+        helvetica: ["Helvetica Neue", "sans-serif"],
       },
     },
   },

@@ -11,9 +11,9 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div className="w-[85%] mx-auto flex px-4 py-6 justify-between items-end">
+      <div className="w-[85%] mx-auto flex px-4 py-6 justify-between items-center">
         <div>
-          <img src={logo} alt="logo" />
+          <img className="object-cover" src={logo} alt="logo" />
         </div>
         <div>
           <ul className="flex text-lg font-sans  gap-10">
@@ -31,7 +31,9 @@ const Navbar = () => {
           </ul>
         </div>
         <div>
-          <img src={logo} alt="logo" />
+          <button className="bg-[#4F0968] border-[1px] border-white  text-white rounded-[5px] font-sans w-[146px] h-[41px] text-[18px] shadow-black shadow-sm">
+            HACK 2.0
+          </button>
         </div>
       </div>
     </nav>

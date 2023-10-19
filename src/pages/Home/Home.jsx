@@ -3,7 +3,7 @@ import JoinSection from "../../components/JoinSection";
 
 const Home = () => {
   return (
-    <div>
+    <div className="bg-[#CBCBCB]">
       <Hero />
       <JoinSection />
     </div>
