@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <div className=" flex justify-center items-center h-[450px] w-full">
-      <div className="mt-20">
+      <div className="mt-28">
         <h2 className="leading-6 text-[#FFED48] text-center text-[30px] font-helvetica">
           A Community where
         </h2>
