@@ -29,20 +29,20 @@ const Header = () => {
       </div>
 
       <div className="px-10 relative z-30 pt-10 pb-4 w-[85%] -mt-14 rounded-[20px] mx-auto bg-white font-helvetica flex border-[2px] border-black justify-around items-center">
-        <p className="text-5xl font-bold leading-5 ">
-          1500+ <br /> <span className="text-lg font-medium">Students</span>
+        <p className="text-6xl font-bold leading-7 ">
+          1500+ <br /> <span className="text-2xl font-medium">Students</span>
         </p>
-        <p className="text-5xl font-bold leading-5">
-          120+ <br /> <span className="text-lg font-medium">Startups</span>
+        <p className="text-6xl font-bold leading-7">
+          120+ <br /> <span className="text-2xl font-medium">Startups</span>
         </p>
-        <p className="text-5xl font-bold leading-5">
-          500+ <br /> <span className="text-lg font-medium">Mentors</span>
+        <p className="text-6xl font-bold leading-7">
+          500+ <br /> <span className="text-2xl font-medium">Mentors</span>
         </p>
-        <p className="text-5xl font-bold leading-5">
-          1000+ <br /> <span className="text-lg font-medium">Internships</span>
+        <p className="text-6xl font-bold leading-7">
+          1000+ <br /> <span className="text-2xl font-medium">Internships</span>
         </p>
-        <p className="text-5xl font-bold leading-5">
-          450+ <br /> <span className="text-lg font-medium">Events</span>
+        <p className="text-6xl font-bold leading-7">
+          450+ <br /> <span className="text-2xl font-medium">Events</span>
         </p>
       </div>
     </div>

@@ -45,7 +45,7 @@ const Faq = () => {
               }}
               title={c.title}
             >
-              <p className="px-8 pb-6 font-medium">{c.desc}</p>
+              <p className="px-8 pb-6 font-normal">{c.desc}</p>
             </AccordionItem>
           ))}
         </Accordion>
