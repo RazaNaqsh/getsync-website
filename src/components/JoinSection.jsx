@@ -1,7 +1,7 @@
-import join_main from "../assets/join_main.png";
-import join_1 from "../assets/join_1.png";
-import join_2 from "../assets/join_2.png";
-import join_3 from "../assets/join_3.png";
+import join_main from "../assets/join_main.svg";
+import join_1 from "../assets/join_1.svg";
+import join_2 from "../assets/join_2.svg";
+import join_3 from "../assets/join_3.svg";
 
 const JoinSection = () => {
   return (

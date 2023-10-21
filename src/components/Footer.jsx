@@ -1,5 +1,5 @@
-import logo from "../assets/logo.png";
-import arrow from "../assets/arrow.png";
+import logo from "../assets/logo.svg";
+import arrow from "../assets/arrow.svg";
 
 const Footer = () => {
   return (

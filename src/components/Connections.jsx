@@ -1,8 +1,8 @@
-import du from "../assets/du.png";
-import cu from "../assets/cu.png";
-import su from "../assets/su.png";
-import au from "../assets/au.png";
-import aktu from "../assets/aktu.png";
+import du from "../assets/du.svg";
+import cu from "../assets/cu.svg";
+import su from "../assets/su.svg";
+import au from "../assets/au.svg";
+import aktu from "../assets/aktu.svg";
 
 const Connections = () => {
   return (

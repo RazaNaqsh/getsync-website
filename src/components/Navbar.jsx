@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.svg";
 
 const Navbar = () => {
   const tabs = ["Home", "About", "Events", "Services", "Leadership"];

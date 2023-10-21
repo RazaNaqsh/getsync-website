@@ -1,10 +1,10 @@
 import HeroText from "./HeroText";
 import Navbar from "./Navbar";
 import Gradient from "../assets/Gradient.png";
-import cup from "../assets/cup.png";
-import tie from "../assets/tie.png";
-import line from "../assets/line.png";
-import scroll from "../assets/scroll.png";
+import cup from "../assets/cup.svg";
+import tie from "../assets/tie.svg";
+import line from "../assets/line.svg";
+import scroll from "../assets/scroll.svg";
 
 const Header = () => {
   return (
@@ -22,7 +22,7 @@ const Header = () => {
         <img src={cup} className="absolute left-0 top-40" alt="" />
         <img
           src={line}
-          className="absolute translate-x-[247px] -translate-y-[450px]  w-[73%]"
+          className="absolute translate-x-[240px] -translate-y-[459px]  w-[71%]"
           alt=""
         />
         <img src={tie} className="absolute right-0 top-48" alt="" />
