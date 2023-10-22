@@ -17,7 +17,11 @@ const Header = () => {
         <Navbar />
         <HeroText />
 
-        <img src={scroll} className="relative top-20 block mx-auto " alt="" />
+        <img
+          src={scroll}
+          className="relative top-20 block mx-auto custom-bounce animate-duration-500"
+          alt=""
+        />
 
         <img src={cup} className="absolute left-0 top-40" alt="" />
         <img

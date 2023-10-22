@@ -17,3 +17,23 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@keyframes customBounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-30px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-30px);
+  }
+}
+
+.custom-bounce {
+  animation: customBounce 4s infinite ease-in-out;
+}
