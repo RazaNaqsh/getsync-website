@@ -15,6 +15,7 @@ export default {
         serifDisplay: ["DM Serif Display", "serif"],
         helvetica: ["Helvetica Neue", "sans-serif"],
         sedan: ["Sedan-SC", "sans-serif"],
+        noto: ["Noto Sans", "sans-serif"],
       },
     },
   },

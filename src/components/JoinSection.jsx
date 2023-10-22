@@ -8,7 +8,7 @@ const JoinSection = () => {
     <section className="pb-20">
       <div className="py-10 w-[85%] mx-auto">
         <img src={join_main} className="w-full mt-20 mb-8" alt="" />
-        <p className="text-center text-[20px] font-normal ">
+        <p className="text-center text-[20px] font-noto font-[500] ">
           Welcome to our vibrant community, where connection, learning, and
           growth take centre stage. Our platform bridges the gap between
           students seeking valuable internships, mentors eager to share their
