@@ -2,7 +2,7 @@ import { useState } from "react";
 import logo from "../assets/logo.svg";
 
 const Navbar = () => {
-  const tabs = ["Home", "About", "Events", "Services", "Leadership"];
+  const tabs = ["Home", "Student", "Startup", "Mentor", "Contact"];
   const [activeTab, setActiveTab] = useState("Home");
 
   const handleTabClick = (tabName) => {
@@ -16,7 +16,7 @@ const Navbar = () => {
           <img className="w-full" src={logo} alt="logo" />
         </div>
         <div>
-          <ul className="flex text-lg font-sans  gap-10">
+          <ul className="flex text-[19px] font-sans  gap-12">
             {tabs.map((tab, index) => (
               <li
                 key={index}

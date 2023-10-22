@@ -1,8 +1,8 @@
 import HeroText from "./HeroText";
 import Navbar from "./Navbar";
 import Gradient from "../assets/Gradient.png";
-import cup from "../assets/cup.svg";
-import tie from "../assets/tie.svg";
+import cup from "../assets/cup.png";
+import tie from "../assets/tie.png";
 import line from "../assets/line.svg";
 import scroll from "../assets/scroll.svg";
 
@@ -28,7 +28,7 @@ const Header = () => {
         <img src={tie} className="absolute right-0 top-48" alt="" />
       </div>
 
-      <div className="px-10 relative z-30 pt-10 pb-4 w-[85%] -mt-14 rounded-[20px] mx-auto bg-white font-helvetica flex border-[2px] border-black justify-around items-center">
+      <div className="px-10 relative z-30 pt-10 pb-4 w-[85%] -mt-16 rounded-[20px] mx-auto bg-white font-helvetica flex border-[2px] border-black justify-around items-center">
         <p className="text-6xl font-bold leading-7 ">
           1500+ <br /> <span className="text-2xl font-medium">Students</span>
         </p>
