@@ -1,6 +1,5 @@
 import HeroText from "./HeroText";
 import Navbar from "./Navbar";
-import Gradient from "../assets/Gradient.png";
 import cup from "../assets/cup.png";
 import tie from "../assets/tie.png";
 import line from "../assets/line.svg";
@@ -9,7 +8,7 @@ import scroll from "../assets/scroll.svg";
 const Header = () => {
   return (
     <div className="relative ">
-      <div className="z-10 relative h-[900px] overflow-hidden bg-[url('assets/Gradient.png')] bg-center bg-cover ">
+      <div className="z-10 relative h-[900px] overflow-hidden bg-[url('assets/Gradient.png')] bg-center bg-cover">
         <Navbar />
         <HeroText />
 
