@@ -7,31 +7,36 @@ import "swiper/css/pagination";
 
 import { EffectCoverflow, Pagination } from "swiper/modules";
 
+import profile from "../assets/profile.png";
+import quoteOpen from "../assets/quoteOpen.svg";
+import quoteClose from "../assets/quoteClose.svg";
+import star from "../assets/star.svg";
+
 const Feedback = () => {
   const slides = [
     {
       key: 1,
-      img: "",
+      img: profile,
       content:
         "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
       rating: "",
-      name: "",
+      name: "Jia",
     },
     {
       key: 2,
-      img: "",
+      img: profile,
       content:
         "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
       rating: "",
-      name: "",
+      name: "Jia",
     },
     {
       key: 3,
-      img: "",
+      img: profile,
       content:
         "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
       rating: "",
-      name: "",
+      name: "Jia",
     },
   ];
   return (
@@ -73,11 +78,39 @@ const Feedback = () => {
             {({ isActive }) => (
               <div
                 className={`bg-[#A244C3] h-full w-full rounded-[15px] border-2 border-black border-b-[5px] border-r-[4px]  px-[55px] py-[25px] ${
-                  isActive ? "opacity-100" : "opacity-60 h-[220px]"
+                  isActive ? "opacity-100" : "px-[40px] opacity-60 h-[210px]"
                 } transition-all ease-in-out`}
               >
-                <p>{isActive ? "active" : "not active"}</p>
-                {card.content}
+                <div
+                  className={`flex items-center ${
+                    isActive ? "gap-10" : "gap-4"
+                  } `}
+                >
+                  <img
+                    src={card.img}
+                    alt=""
+                    className={`${isActive ? "" : "w-[100px]"}`}
+                  />
+                  <div className="flex flex-col gap-3">
+                    <img src={quoteOpen} alt="" className={`w-[42px]`} />
+                    <p
+                      className={`px-8 ${
+                        isActive ? "text-[17px]" : "text-[14px]"
+                      } font-semibold`}
+                    >
+                      {card.content}
+                    </p>
+                    <img
+                      src={quoteClose}
+                      alt=""
+                      className={`w-[42px] self-end`}
+                    />
+                    <div className="flex items-center self-center gap-10 ">
+                      <img src={star} alt="" />
+                      <p>-{card.name}</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             )}
           </SwiperSlide>
