@@ -16,6 +16,7 @@ export default {
         helvetica: ["Helvetica Neue", "sans-serif"],
         sedan: ["Sedan-SC", "sans-serif"],
         noto: ["Noto Sans", "sans-serif"],
+        kite: ["Kite One", "sans-serif"],
       },
     },
   },

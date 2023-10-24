@@ -1,5 +1,6 @@
 import Connections from "../../components/Connections";
 import Faq from "../../components/Faq";
+import Feedback from "../../components/Feedback";
 import Footer from "../../components/Footer";
 import Hero from "../../components/Hero";
 import JoinSection from "../../components/JoinSection";
@@ -14,6 +15,7 @@ const Home = () => {
         <JoinSection />
         <Services />
         <Connections />
+        <Feedback />
         <Faq />
         <Footer />
       </div>
