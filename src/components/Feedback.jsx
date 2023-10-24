@@ -105,8 +105,16 @@ const Feedback = () => {
                       alt=""
                       className={`w-[42px] self-end`}
                     />
-                    <div className="flex items-center self-center gap-10 ">
-                      <img src={star} alt="" />
+                    <div
+                      className={`flex items-center self-center gap-10 ${
+                        isActive ? "" : "-mt-10"
+                      }`}
+                    >
+                      <img
+                        src={star}
+                        alt=""
+                        className={`${isActive ? "" : "w-[110px]"}`}
+                      />
                       <p>-{card.name}</p>
                     </div>
                   </div>
