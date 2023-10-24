@@ -77,8 +77,10 @@ const Feedback = () => {
           >
             {({ isActive }) => (
               <div
-                className={`bg-[#A244C3] h-full w-full rounded-[15px] border-2 border-black border-b-[5px] border-r-[4px]  px-[55px] py-[25px] ${
-                  isActive ? "opacity-100" : "px-[40px] opacity-60 h-[210px]"
+                className={`bg-[#A244C3]  w-full rounded-[15px] border-2 border-black border-b-[5px] border-r-[4px]  px-[55px] py-[25px] ${
+                  isActive
+                    ? "opacity-100 h-full"
+                    : "px-[40px] opacity-60 h-[210px]"
                 } transition-all ease-in-out`}
               >
                 <div
