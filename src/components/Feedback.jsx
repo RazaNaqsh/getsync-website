@@ -36,7 +36,7 @@ const Feedback = () => {
   ];
   return (
     <div className="my-16">
-      <Swiper
+      {/* <Swiper
         spaceBetween={"50px"}
         effect={"coverflow"}
         grabCursor={true}
@@ -54,13 +54,27 @@ const Feedback = () => {
         initialSlide={1}
         modules={[EffectCoverflow, Pagination]}
         className="mySwiper w-[95%] mx-auto text-white font-kite"
+      > */}
+      <Swiper
+        spaceBetween={"100px"}
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={"auto"}
+        pagination={true}
+        watchSlidesProgress={true}
+        initialSlide={1}
+        modules={[EffectCoverflow, Pagination]}
+        className="mySwiper w-[95%] mx-auto text-white font-kite"
       >
         {slides.map((card) => (
-          <SwiperSlide key={card.key} className="w-[690px] h-[275px] ">
+          <SwiperSlide
+            key={card.key}
+            className="w-[690px] h-[275px] flex items-center"
+          >
             {({ isActive }) => (
               <div
-                className={`bg-[#A244C3] h-full w-full rounded-[15px] border-2 border-black border-b-[4px] border-r-[3px]  px-[55px] py-[25px] ${
-                  isActive ? "opacity-100" : "opacity-80"
+                className={`bg-[#A244C3] h-full w-full rounded-[15px] border-2 border-black border-b-[5px] border-r-[4px]  px-[55px] py-[25px] ${
+                  isActive ? "opacity-100" : "opacity-60 h-[220px]"
                 } transition-all ease-in-out`}
               >
                 <p>{isActive ? "active" : "not active"}</p>

@@ -1,10 +1,7 @@
 import React from "react";
 import { Accordion, AccordionItem } from "@nextui-org/react";
-
+import { IndicatorOpen } from "../utils/IndicatorOpen";
 const Faq = () => {
-  const defaultContent =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
-
   const content = [
     {
       key: 1,
@@ -44,6 +41,7 @@ const Faq = () => {
                 paddingTop: "4px",
               }}
               title={c.title}
+              indicator={<IndicatorOpen />}
             >
               <p className="px-8 pb-6 font-normal">{c.desc}</p>
             </AccordionItem>
