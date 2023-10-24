@@ -39,6 +39,7 @@ const Faq = () => {
                 minHeight: "77px",
                 fontWeight: "700",
                 paddingTop: "4px",
+                paddingBottom: "3px",
               }}
               title={c.title}
               indicator={<IndicatorOpen />}

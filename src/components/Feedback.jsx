@@ -60,7 +60,6 @@ const Feedback = () => {
         grabCursor={true}
         centeredSlides={true}
         slidesPerView={"auto"}
-        pagination={true}
         watchSlidesProgress={true}
         initialSlide={1}
         modules={[EffectCoverflow, Pagination]}
