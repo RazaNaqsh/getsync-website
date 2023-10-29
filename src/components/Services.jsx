@@ -5,13 +5,6 @@ const Services = () => {
     <div className="py-20">
       <div>
         <h1 className="text-center font-sedan text-[48px] mb-4">SERVICES</h1>
-        <div className="text-[20px] font-helvetica text-center leading-7 font-medium">
-          <p>“at getSync, your success is our priority”</p>
-          <p>
-            Over 50% of our services are completely FREE for students and
-            startups.
-          </p>
-        </div>
       </div>
 
       <div className="flex justify-center gap-12 p-4 tracking-wide ">

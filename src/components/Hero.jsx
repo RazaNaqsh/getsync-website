@@ -29,13 +29,16 @@ const Header = () => {
 
       <div className="px-10 relative z-30 pt-10 pb-4 w-[85%] -mt-16 rounded-[20px] mx-auto bg-white font-helvetica flex border-[2px] border-black justify-around items-center">
         <p className="text-6xl font-bold leading-7 ">
-          1500+ <br /> <span className="text-2xl font-medium">Students</span>
+          1500+ <br />{" "}
+          <span className="text-2xl font-medium pl-2">Students</span>
         </p>
         <p className="text-6xl font-bold leading-7">
-          120+ <br /> <span className="text-2xl font-medium">Startups</span>
+          120+ <br />{" "}
+          <span className="text-2xl font-medium pl-2">Startups</span>
         </p>
         <p className="text-6xl font-bold leading-7">
-          1000+ <br /> <span className="text-2xl font-medium">Internships</span>
+          1200+ <br />{" "}
+          <span className="text-2xl font-medium pl-2">Internships</span>
         </p>
         <p className="text-6xl font-bold leading-7">
           450+ <br /> <span className="text-2xl font-medium">Events</span>

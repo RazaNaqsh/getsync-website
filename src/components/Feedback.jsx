@@ -49,7 +49,7 @@ const Feedback = () => {
         watchSlidesProgress={true}
         initialSlide={1}
         modules={[EffectCoverflow, Pagination]}
-        className="mySwiper w-[95%] mx-auto text-white font-kite"
+        className="mySwiper mx-auto text-white font-kite"
       >
         {slides.map((card) => (
           <SwiperSlide
