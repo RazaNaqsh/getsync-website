@@ -28,9 +28,9 @@ const JoinSection = () => {
             <div>
               <img src={join_1} alt="" />
             </div>
-            <div className="w-[760px] bg-white border-[1px] border-r-[2px] border-b-[4px] border-black rounded-[10px] py-[15px] px-[30px] ">
+            <div className="w-[760px] h-[291px] bg-white border-[1px] border-r-[2px] border-b-[4px] border-black rounded-[10px] py-[12px] px-[30px] ">
               <div>
-                <h2 className="text-[30px] font-semibold font-sans">
+                <h2 className="text-[28px] font-semibold font-sans">
                   Students
                 </h2>
                 <p className="text-[20px] ">
@@ -48,13 +48,13 @@ const JoinSection = () => {
             </div>
           </div>
 
-          <div className="flex w-[85%] mx-auto  justify-around">
-            <div className="w-[760px] bg-white border-[1px] border-r-[2px] border-b-[4px] border-black rounded-[10px] py-[15px] px-[30px]">
+          <div className="flex w-[85%]  mx-auto  justify-around">
+            <div className="w-[760px] h-[300px] bg-white border-[1px] border-r-[2px] border-b-[4px] border-black rounded-[10px] py-[12px] px-[30px]">
               <div>
                 <h2 className="text-[30px] font-semibold font-sans">
                   Startups
                 </h2>
-                <p className="text-[20px] ">
+                <p className="text-[19px] ">
                   Connect with our platform to tap into a pool of motivated,
                   internship-seeking talent. Identify potential future hires,
                   foster relationships with emerging talent, and offer
@@ -64,7 +64,7 @@ const JoinSection = () => {
                   with us.
                 </p>
               </div>
-              <button className="bg-[#A244C3] font-semibold text-white py-[10px] px-[16px] rounded-[5px] border-[1px] border-black border-r-[3px] border-b-[4px] block mx-auto mt-4">
+              <button className="bg-[#A244C3] font-semibold text-white py-[10px] px-[16px] rounded-[5px] border-[1px] border-black border-r-[3px] border-b-[4px] block  mx-auto mt-8">
                 JOIN NOW
               </button>
             </div>
@@ -73,14 +73,14 @@ const JoinSection = () => {
             </div>
           </div>
 
-          <div className="flex w-[85%] mx-auto  justify-around">
+          <div className="flex w-[85%]  mx-auto  justify-around">
             <div>
               <img src={join_3} alt="" />
             </div>
-            <div className="w-[760px] bg-white border-[1px] border-r-[3px] border-b-[4px] border-black rounded-[10px] py-[15px] px-[30px]">
+            <div className="w-[760px] h-[300px] bg-white border-[1px] border-r-[3px] border-b-[4px] border-black rounded-[10px] py-[12px] px-[30px]">
               <div>
-                <h2 className="text-[30px] font-semibold font-sans">Mentors</h2>
-                <p className="text-[20px] ">
+                <h2 className="text-[28px] font-semibold font-sans">Mentors</h2>
+                <p className="text-[19px] ">
                   Join our community and become an invaluable resource for both
                   students and founders. <br />
                   Share your expertise with the next generation and gain
@@ -90,7 +90,7 @@ const JoinSection = () => {
                   advancing your own career. Join us today!
                 </p>
               </div>
-              <button className="bg-[#A244C3] font-semibold text-white py-[10px] px-[16px] rounded-[5px] border-[1px] border-black border-r-[3px] border-b-[4px] block mx-auto mt-4">
+              <button className="bg-[#A244C3] font-semibold text-white py-[10px] px-[16px] rounded-[5px] border-[1px] border-black border-r-[3px] border-b-[4px] block mx-auto mt-2">
                 JOIN NOW
               </button>
             </div>

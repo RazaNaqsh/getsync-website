@@ -5,23 +5,18 @@ const Faq = () => {
   const content = [
     {
       key: 1,
-      title: "1. What is a Community?",
-      desc: "A community is a place or platform where people of same genre meets community is a place or platform where people of same genre meets community is a place or platform where people of same genre meetsA community is a place or platform where people of same genre meets",
+      title: "1. What is getSync ?",
+      desc: "getSync is a community based  platform that bridges the gap between students seeking valuable internships, mentors eager to share their expertise, and founders in search of top-tier talent.",
     },
     {
       key: 2,
-      title: "2. What is getSync?",
-      desc: "A community is a place or platform where people of same genre meets community is a place or platform where people of same genre meets community is a place or platform where people of same genre meetsA community is a place or platform where people of same genre meets",
+      title: "2. Why would anyone join getSync Community ?",
+      desc: "Students join for internship opportunities and mentorship, while founders seek a talented pool and valuable networking.",
     },
     {
       key: 3,
-      title: "3. How I will be benifited?",
-      desc: "A community is a place or platform where people of same genre meets community is a place or platform where people of same genre meets community is a place or platform where people of same genre meetsA community is a place or platform where people of same genre meets",
-    },
-    {
-      key: 4,
-      title: "4. Is it free?",
-      desc: "A community is a place or platform where people of same genre meets community is a place or platform where people of same genre meets community is a place or platform where people of same genre meetsA community is a place or platform where people of same genre meets",
+      title: "3. Do I have to pay for something ?",
+      desc: "No, the community services are completely FREE.",
     },
   ];
   return (
@@ -43,8 +38,11 @@ const Faq = () => {
               }}
               title={c.title}
               indicator={<IndicatorOpen />}
+              className="font-noto"
             >
-              <p className="px-8 pb-6 font-normal">{c.desc}</p>
+              <p className="px-8 pb-6 font-normal text-[20px] font-helvetica">
+                {c.desc}
+              </p>
             </AccordionItem>
           ))}
         </Accordion>

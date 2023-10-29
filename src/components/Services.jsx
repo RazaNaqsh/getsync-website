@@ -45,7 +45,7 @@ const Services = () => {
               Regular Meetups
             </li>
           </ul>
-          <button className="mt-12 font-bold w-[190px] text-[20px] bg-[#FFED48] border-2 border-black border-b-[3px] border-r-[3px] block mx-auto rounded-[5px] py-2 ">
+          <button className="mt-12 font-bold w-[190px] text-[20px] bg-[#FFED48] border-2 border-black border-b-[3px] border-r-[3px] block mx-auto rounded-[5px] py-2 shadow-sm shadow-black">
             KNOW MORE
           </button>
         </div>
@@ -79,7 +79,7 @@ const Services = () => {
               1:1 Mentorship Sessions
             </li>
           </ul>
-          <button className="mt-12 font-bold w-[190px] text-[20px] bg-[#FFED48] border-2 border-black border-b-[3px] border-r-[3px] block mx-auto rounded-[5px] py-2 ">
+          <button className="mt-12 font-bold w-[190px] text-[20px] bg-[#FFED48] border-2 border-black border-b-[3px] border-r-[3px] block mx-auto rounded-[5px] py-2 shadow-sm shadow-black">
             KNOW MORE
           </button>
         </div>

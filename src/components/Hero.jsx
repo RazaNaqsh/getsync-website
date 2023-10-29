@@ -7,8 +7,8 @@ import scroll from "../assets/scroll.svg";
 
 const Header = () => {
   return (
-    <div className="relative ">
-      <div className="z-10 relative h-[900px] overflow-hidden bg-[url('assets/Gradient.png')] bg-center bg-cover">
+    <div className="relative">
+      <div className="z-10 relative h-[900px] overflow-hidden bg-slate-700 bg-[url('assets/Gradient.png')] bg-center bg-cover">
         <Navbar />
         <HeroText />
 
@@ -33,9 +33,6 @@ const Header = () => {
         </p>
         <p className="text-6xl font-bold leading-7">
           120+ <br /> <span className="text-2xl font-medium">Startups</span>
-        </p>
-        <p className="text-6xl font-bold leading-7">
-          500+ <br /> <span className="text-2xl font-medium">Mentors</span>
         </p>
         <p className="text-6xl font-bold leading-7">
           1000+ <br /> <span className="text-2xl font-medium">Internships</span>

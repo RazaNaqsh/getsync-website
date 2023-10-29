@@ -15,8 +15,8 @@ const Home = () => {
         <JoinSection />
         <Services />
         <Connections />
-        <Feedback />
         <Faq />
+        <Feedback />
         <Footer />
       </div>
     </div>

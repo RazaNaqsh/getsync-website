@@ -3,7 +3,7 @@ import arrow from "../assets/arrow.svg";
 
 const Footer = () => {
   return (
-    <div className="relative h-[355px] bg-[#7B209B] w-full py-4 text-white">
+    <div className="relative h-[355px] bg-[#232323] w-full py-4 text-white">
       <img src={logo} alt="" className="mx-auto mb-12" />
 
       <div className="flex justify-center gap-8 mt-10 text-[18px]">

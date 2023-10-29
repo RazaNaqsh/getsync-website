@@ -40,26 +40,7 @@ const Feedback = () => {
     },
   ];
   return (
-    <div className="my-16">
-      {/* <Swiper
-        spaceBetween={"50px"}
-        effect={"coverflow"}
-        grabCursor={true}
-        centeredSlides={true}
-        slidesPerView={"auto"}
-        coverflowEffect={{
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: true,
-        }}
-        pagination={true}
-        watchSlidesProgress={true}
-        initialSlide={1}
-        modules={[EffectCoverflow, Pagination]}
-        className="mySwiper w-[95%] mx-auto text-white font-kite"
-      > */}
+    <div className="mt-16 mb-28">
       <Swiper
         spaceBetween={"100px"}
         grabCursor={true}
@@ -77,7 +58,7 @@ const Feedback = () => {
           >
             {({ isActive }) => (
               <div
-                className={`bg-[#A244C3]  w-full rounded-[15px] border-2 border-black border-b-[5px] border-r-[4px]  px-[55px] py-[25px] ${
+                className={`bg-[#E95557]  w-full rounded-[15px] border-2 border-black border-b-[5px] border-r-[4px]  px-[55px] py-[25px] ${
                   isActive
                     ? "opacity-100 h-full"
                     : "px-[40px] opacity-60 h-[210px]"
@@ -117,7 +98,9 @@ const Feedback = () => {
                         alt=""
                         className={`${isActive ? "" : "w-[110px]"}`}
                       />
-                      <p>-{card.name}</p>
+                      <p className={`${isActive ? "" : " text-[14px]"}`}>
+                        -{card.name}
+                      </p>
                     </div>
                   </div>
                 </div>
