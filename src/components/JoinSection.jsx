@@ -19,7 +19,7 @@ const JoinSection = () => {
       </div>
 
       <div>
-        <h1 className=" mt-24 mb-10 text-[60px] font-semibold text-center font-serifDisplay">
+        <h1 className=" mt-24 mb-10 text-[60px] font-normal text-center font-sedan">
           WHO CAN JOIN ?
         </h1>
 

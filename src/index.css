@@ -8,12 +8,7 @@
 
 @font-face {
   font-family: "Sedan-SC";
-  src: url("./assets/fonts/webfonts_Sedan-SC/Sedan-SC.ttf.woff") format("woff"),
-    url("./assets/fonts/webfonts_Sedan-SC/Sedan-SC.ttf.svg#Sedan-SC")
-      format("svg"),
-    url("./assets/fonts/webfonts_Sedan-SC/Sedan-SC.ttf.eot"),
-    url("./assets/fonts/webfonts_Sedan-SC/Sedan-SC.ttf.eot?#iefix")
-      format("embedded-opentype");
+  src: url("./assets/fonts/SedanSC-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
