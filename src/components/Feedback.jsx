@@ -40,7 +40,7 @@ const Feedback = () => {
     },
   ];
   return (
-    <div className="mt-16 mb-28">
+    <div className="mt-2 mb-32">
       <Swiper
         spaceBetween={"100px"}
         grabCursor={true}
