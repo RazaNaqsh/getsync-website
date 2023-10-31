@@ -3,6 +3,7 @@ import fb from "../assets/fb.svg";
 import ig from "../assets/ig.svg";
 import yt from "../assets/yt.svg";
 import tw from "../assets/tw.svg";
+import { Input, Textarea } from "@nextui-org/react";
 
 const Footer = () => {
   const submit = (e) => {
@@ -18,21 +19,11 @@ const Footer = () => {
           Have any Feedback or Query?
         </h1>
         <form onSubmit={submit} className="space-y-5">
-          <input
-            type="text"
-            className="bg-transparent border-[1px] text-[12px] w-[340px] h-[56px] py-[8px] px-[12px] rounded-[12px]"
-            placeholder="FULL NAME"
-          />
-          <input
-            type="email"
-            className="bg-transparent border-[1px] text-[12px] w-[340px] h-[56px] py-[8px] px-[12px] rounded-[12px]"
-            placeholder="FULL NAME"
-          />
-          <input
-            type="text"
-            className="bg-transparent border-[1px] text-[12px] w-[340px] h-[97px] py-[8px] px-[12px] rounded-[12px]"
-            placeholder="MESSAGE"
-          />
+          <Input type="text" label="FULL NAME" color="" variant="bordered" />
+
+          <Input type="email" label="EMAIL" color="" variant="bordered" />
+
+          <Textarea label="MESSAGE" variant="bordered" className="max-w-xs" />
           <button className="border-[1px] border-b-[3px] border-r-[2px] border-white rounded-[50px] py-[10px] px-[30px]  text-[14px] bg-[#7B209B] text-white">
             Send
           </button>
