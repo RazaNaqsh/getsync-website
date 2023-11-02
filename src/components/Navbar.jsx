@@ -16,7 +16,7 @@ const Navbar = () => {
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ delay: 0.8, duration: 1.3 }}
+        transition={{ delay: 1.5, duration: 1.3 }}
         className="w-[90%] mx-auto flex px-4 py-6 justify-between items-center"
       >
         <div>
