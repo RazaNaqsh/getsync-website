@@ -4,6 +4,7 @@ import cup from "../assets/cup.png";
 import tie from "../assets/tie.png";
 import line from "../assets/line.svg";
 import scroll from "../assets/scroll.svg";
+import CountUp from "react-countup";
 
 const Header = () => {
   return (
@@ -29,19 +30,45 @@ const Header = () => {
 
       <div className="px-10 relative z-50 pt-10 pb-4 w-[85%] -mt-16 rounded-[20px] mx-auto bg-white font-helvetica flex border-[2px] border-black justify-around items-center">
         <p className="text-6xl font-bold leading-7 ">
-          1500+ <br />{" "}
-          <span className="text-2xl font-medium pl-2">Students</span>
+          <CountUp
+            start={0}
+            end={1500}
+            duration={1}
+            enableScrollSpy
+            scrollSpyOnce
+          />
+          + <br /> <span className="text-2xl font-medium pl-2">Students</span>
         </p>
         <p className="text-6xl font-bold leading-7">
-          120+ <br />{" "}
-          <span className="text-2xl font-medium pl-2">Startups</span>
+          <CountUp
+            start={0}
+            end={50}
+            duration={1}
+            enableScrollSpy
+            scrollSpyOnce
+          />
+          + <br /> <span className="text-2xl font-medium">Startups</span>
         </p>
         <p className="text-6xl font-bold leading-7">
-          1200+ <br />{" "}
+          <CountUp
+            start={0}
+            end={1200}
+            duration={1}
+            enableScrollSpy
+            scrollSpyOnce
+          />
+          + <br />{" "}
           <span className="text-2xl font-medium pl-2">Internships</span>
         </p>
         <p className="text-6xl font-bold leading-7">
-          450+ <br /> <span className="text-2xl font-medium">Events</span>
+          <CountUp
+            start={0}
+            end={450}
+            duration={1}
+            enableScrollSpy
+            scrollSpyOnce
+          />
+          + <br /> <span className="text-2xl font-medium">Events</span>
         </p>
       </div>
     </div>
