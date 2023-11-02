@@ -11,7 +11,12 @@ import { motion } from "framer-motion";
 const Header = () => {
   return (
     <div className="relative">
-      <div className="z-30 relative h-[900px] overflow-hidden bg-slate-700 bg-[url('assets/Gradient.png')] bg-center bg-cover">
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.5, duration: 1 }}
+        className="z-30 relative h-[900px] overflow-hidden bg-slate-700 bg-[url('assets/Gradient.png')] bg-center bg-cover"
+      >
         <Navbar />
         <HeroText />
 
@@ -28,7 +33,7 @@ const Header = () => {
           alt=""
         />
         <img src={tie} className="absolute right-0 top-48" alt="" />
-      </div>
+      </motion.div>
 
       <div className="px-10 relative z-50 pt-10 pb-4 w-[85%] -mt-16 rounded-[20px] mx-auto bg-white font-helvetica flex border-[2px] border-black justify-around items-center">
         <p className="text-6xl font-bold leading-7 ">
