@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=DM+Serif+Display&family=Kite+One&family=Noto+Sans:wght@400;500&display=swap");
-@import url("https://fonts.cdnfonts.com/css/helvetica-neue-55");
 @import url("https://fonts.cdnfonts.com/css/sedan-sc");
 
 @tailwind base;
@@ -10,6 +9,35 @@
   font-family: "Sedan-SC";
   src: url("./assets/fonts/SedanSC-Regular.ttf") format("truetype");
   font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica-Neue";
+  src: url("./assets/fonts/helvetica-neue-master/HelveticaNeue-Regular.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Helvetica-Neue";
+  src: url("./assets/fonts/helvetica-neue-master/HelveticaNeue-Medium.otf")
+    format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Helvetica-Neue";
+  src: url("./assets/fonts/helvetica-neue-master/HelveticaNeue-Bold.otf")
+    format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Helvetica-Neue";
+  src: url("./assets/fonts/helvetica-neue-master/HelveticaNeue-Light.otf")
+    format("opentype");
+  font-weight: lighter;
   font-style: normal;
 }
 

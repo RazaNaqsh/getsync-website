@@ -13,7 +13,7 @@ export default {
       fontFamily: {
         caveat: ["Caveat Brush", "cursive"],
         serifDisplay: ["DM Serif Display", "serif"],
-        helvetica: ["Helvetica Neue", "sans-serif"],
+        helvetica: ["Helvetica-Neue", "sans-serif"],
         sedan: ["Sedan-SC", "sans-serif"],
         noto: ["Noto Sans", "sans-serif"],
         kite: ["Kite One", "sans-serif"],

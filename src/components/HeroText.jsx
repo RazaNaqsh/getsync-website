@@ -5,7 +5,7 @@ const Hero = () => {
         <h2 className="leading-6 text-[#FFED48] text-center text-[30px] font-helvetica">
           A Community where
         </h2>
-        <h1 className="font-helvetica text-center text-white font-[600] text-[60px]">
+        <h1 className="font-helvetica text-center text-white font-[600] text-[60px] tracking-[1px]">
           Talent meets Opportunity
         </h1>
         <p className="text-white w-[60%] mx-auto text-center text-[19px]">

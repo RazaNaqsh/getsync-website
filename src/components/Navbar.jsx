@@ -21,7 +21,7 @@ const Navbar = () => {
               <li
                 key={index}
                 className={`cursor-pointer ${
-                  activeTab === tab ? "text-white" : "text-black"
+                  activeTab === tab ? "text-white font-medium" : "text-black"
                 }`}
                 onClick={() => handleTabClick(tab)}
               >

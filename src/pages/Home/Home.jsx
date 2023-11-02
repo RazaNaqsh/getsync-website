@@ -4,6 +4,7 @@ import Feedback from "../../components/Feedback";
 import Footer from "../../components/Footer";
 import Hero from "../../components/Hero";
 import JoinSection from "../../components/JoinSection";
+import ScrollToTopButton from "../../components/ScrollToTopButton";
 import Services from "../../components/Services";
 
 const Home = () => {
@@ -14,10 +15,11 @@ const Home = () => {
         <Hero />
         <JoinSection />
         <Services />
-        <Connections />
+        {/* <Connections /> */}
         <Faq />
         <Feedback />
         <Footer />
+        <ScrollToTopButton />
       </div>
     </div>
   );
