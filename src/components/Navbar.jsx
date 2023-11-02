@@ -1,6 +1,8 @@
 import { useState } from "react";
 import logo from "../assets/logo.svg";
 
+import { motion } from "framer-motion";
+
 const Navbar = () => {
   const tabs = ["Home", "Student", "Startup", "Mentor", "Contact"];
   const [activeTab, setActiveTab] = useState("Home");
@@ -11,7 +13,12 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div className="w-[90%] mx-auto flex px-4 py-6 justify-between items-center">
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.5, duration: 1 }}
+        className="w-[90%] mx-auto flex px-4 py-6 justify-between items-center"
+      >
         <div>
           <img className="w-full" src={logo} alt="logo" />
         </div>
@@ -35,7 +42,7 @@ const Navbar = () => {
             HACK 2.0
           </button>
         </div>
-      </div>
+      </motion.div>
     </nav>
   );
 };

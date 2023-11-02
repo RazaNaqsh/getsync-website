@@ -6,6 +6,8 @@ import line from "../assets/line.svg";
 import scroll from "../assets/scroll.svg";
 import CountUp from "react-countup";
 
+import { motion } from "framer-motion";
+
 const Header = () => {
   return (
     <div className="relative">
@@ -33,7 +35,7 @@ const Header = () => {
           <CountUp
             start={0}
             end={1500}
-            duration={1}
+            duration={1.3}
             enableScrollSpy
             scrollSpyOnce
           />
@@ -43,7 +45,7 @@ const Header = () => {
           <CountUp
             start={0}
             end={50}
-            duration={1}
+            duration={1.3}
             enableScrollSpy
             scrollSpyOnce
           />
@@ -53,7 +55,7 @@ const Header = () => {
           <CountUp
             start={0}
             end={1200}
-            duration={1}
+            duration={1.3}
             enableScrollSpy
             scrollSpyOnce
           />
@@ -64,7 +66,7 @@ const Header = () => {
           <CountUp
             start={0}
             end={450}
-            duration={1}
+            duration={1.3}
             enableScrollSpy
             scrollSpyOnce
           />
