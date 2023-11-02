@@ -1,3 +1,5 @@
+import { Typewriter } from "react-simple-typewriter";
+
 const Hero = () => {
   return (
     <div className=" flex justify-center items-center h-[450px] w-full">
@@ -9,8 +11,12 @@ const Hero = () => {
           Talent meets Opportunity
         </h1>
         <p className="text-white w-[60%] mx-auto text-center text-[19px]">
-          getSync is a community-based platform that empowers students and
-          founders to learn, earn, and network
+          <Typewriter
+            words={[
+              "getSync is a community-based platform that empowers students and founders to learn, earn, and network",
+            ]}
+            typeSpeed={20}
+          />
         </p>
       </div>
     </div>
