@@ -10,7 +10,7 @@ const Hero = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{
             delay: 1,
-            duration: 1.2,
+            duration: 1,
           }}
           className="leading-6 text-[#FFED48] text-center text-[30px] font-helvetica"
         >
@@ -20,7 +20,7 @@ const Hero = () => {
           className="font-helvetica text-center text-white font-[600] text-[60px] tracking-[2px]"
           initial={{ opacity: 0, scale: 0.4 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1.2, delay: 1 }}
+          transition={{ duration: 1.3, delay: 1 }}
         >
           Talent meets Opportunity
         </motion.h1>
