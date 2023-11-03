@@ -19,9 +19,9 @@ const Hero = () => {
           </motion.h2>
           <motion.h1
             className=" font-helvetica text-center text-white font-[600] text-[60px] tracking-[2px]"
-            initial={{ opacity: 0, scale: 0.6 }}
+            initial={{ opacity: 0, scale: 0.7 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 1.3, delay: 2.5 }}
+            transition={{ duration: 0.8, delay: 2.5 }}
           >
             Talent meets Opportunity
           </motion.h1>
