@@ -20,14 +20,14 @@ const Hero = () => {
           className="font-helvetica text-center text-white font-[600] text-[60px] tracking-[2px]"
           initial={{ opacity: 0, scale: 0.4 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1.3, delay: 2.3 }}
+          transition={{ duration: 1.3, delay: 2.5 }}
         >
           Talent meets Opportunity
         </motion.h1>
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 2.5 }}
+          transition={{ duration: 1, delay: 2 }}
           className="text-white w-[60%] mx-auto text-center text-[19px]"
         >
           <Typewriter
@@ -36,7 +36,7 @@ const Hero = () => {
               "getSync is a community-based platform that empowers students and founders to learn, earn, and network",
             ]}
             typeSpeed={20}
-            delaySpeed={2000}
+            delaySpeed={2500}
           />
         </motion.p>
       </div>
