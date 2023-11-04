@@ -20,7 +20,10 @@ const Header = () => {
         <Navbar />
         <HeroText />
 
-        <img
+        <motion.img
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 5.8, duration: 1 }}
           src={scroll}
           className="relative top-20 block mx-auto custom-bounce animate-duration-500"
           alt=""
