@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="mt-28  h-[185px] ">
         <div className="h-[120px]">
           <motion.h2
-            initial={{ y: -60, opacity: 0 }}
+            initial={{ y: -50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{
               delay: 2,
@@ -29,8 +29,8 @@ const Hero = () => {
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 4 }}
-          className=" text-white w-[60%] mx-auto text-center text-[19px]"
+          transition={{ duration: 1, delay: 4.4 }}
+          className=" w-[540px] text-white  mx-auto text-center text-[19px]"
         >
           <Typewriter
             words={[
@@ -38,7 +38,7 @@ const Hero = () => {
               "getSync is a community-based platform that empowers students and founders to learn, earn, and network",
             ]}
             typeSpeed={30}
-            delaySpeed={1500}
+            delaySpeed={2000}
           />
         </motion.p>
       </div>

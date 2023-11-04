@@ -15,7 +15,7 @@ const Header = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5, duration: 1 }}
-        className="z-30 relative h-[900px] overflow-hidden bg-slate-700 bg-[url('assets/Gradient.png')] bg-center bg-cover"
+        className="z-30 relative h-[900px] overflow-hidden bg-slate-700 bg-[url('assets/GradientCompressed.png')] bg-center bg-cover"
       >
         <Navbar />
         <HeroText />
@@ -23,7 +23,7 @@ const Header = () => {
         <motion.img
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 5.8, duration: 1 }}
+          transition={{ delay: 6, duration: 1 }}
           src={scroll}
           className="relative top-20 block mx-auto custom-bounce animate-duration-500"
           alt=""
