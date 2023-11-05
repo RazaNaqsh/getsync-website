@@ -1,14 +1,24 @@
 import HeroText from "./HeroText";
 import Navbar from "./Navbar";
-import cup from "../assets/cup.png";
-import tie from "../assets/tie.png";
-import line from "../assets/line.svg";
 import scroll from "../assets/scroll.svg";
 import CountUp from "react-countup";
 
 import { motion } from "framer-motion";
+import frame from "../assets/Frame.json";
+import Lottie from "lottie-react";
+import { useEffect, useState } from "react";
 
 const Header = () => {
+  const [startAnimation, setStartAnimation] = useState(false);
+
+  useEffect(() => {
+    const animationDelay = setTimeout(() => {
+      setStartAnimation(true);
+    }, 1000);
+    return () => {
+      clearTimeout(animationDelay);
+    };
+  }, []);
   return (
     <div className="relative">
       <motion.div
@@ -23,19 +33,14 @@ const Header = () => {
         <motion.img
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 6, duration: 1 }}
+          transition={{ delay: 9, duration: 1 }}
           src={scroll}
           className="relative top-20 block mx-auto custom-bounce animate-duration-500"
           alt=""
         />
-
-        <img src={cup} className="absolute left-0 top-40" alt="" />
-        <img
-          src={line}
-          className="absolute translate-x-[240px] -translate-y-[459px]  w-[71%]"
-          alt=""
-        />
-        <img src={tie} className="absolute right-0 top-48" alt="" />
+        <div className="absolute w-full top-40">
+          {startAnimation && <Lottie animationData={frame} loop={false} />}
+        </div>
       </motion.div>
 
       <div className="px-10 relative z-50 pt-10 pb-4 w-[85%] -mt-16 rounded-[20px] mx-auto bg-white font-helvetica flex border-[2px] border-black justify-around items-center">

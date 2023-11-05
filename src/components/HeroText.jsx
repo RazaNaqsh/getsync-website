@@ -1,5 +1,6 @@
 import { Typewriter } from "react-simple-typewriter";
 import { motion } from "framer-motion";
+import TypeWriterText from "./TypeWriterText";
 
 const Hero = () => {
   return (
@@ -10,7 +11,7 @@ const Hero = () => {
             initial={{ y: -50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{
-              delay: 2,
+              delay: 3.3,
               duration: 1,
             }}
             className=" leading-6 text-[#FFED48] text-center text-[30px] font-helvetica"
@@ -21,7 +22,7 @@ const Hero = () => {
             className=" font-helvetica text-center text-white font-[600] text-[60px] tracking-[2px]"
             initial={{ opacity: 0, scale: 0.85 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.9, delay: 3.2 }}
+            transition={{ duration: 0.9, delay: 4 }}
           >
             Talent meets Opportunity
           </motion.h1>
@@ -29,7 +30,7 @@ const Hero = () => {
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 4.4 }}
+          transition={{ duration: 1, delay: 5 }}
           className=" w-[540px] text-white  mx-auto text-center text-[19px]"
         >
           <Typewriter
@@ -37,9 +38,10 @@ const Hero = () => {
               "",
               "getSync is a community-based platform that empowers students and founders to learn, earn, and network",
             ]}
-            typeSpeed={30}
-            delaySpeed={2000}
+            typeSpeed={32}
+            delaySpeed={4000}
           />
+          {/* <TypeWriterText /> */}
         </motion.p>
       </div>
     </div>
