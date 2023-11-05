@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 const ScrollToTopButton = () => {
   const scrollToTop = () => {
     window.scrollTo({
@@ -7,7 +8,10 @@ const ScrollToTopButton = () => {
   };
 
   return (
-    <button
+    <motion.button
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: 2 }}
       onClick={scrollToTop}
       className="z-20 fixed bottom-4 right-4 bg-purple-600 text-white rounded-full p-2 hover:bg-purple-500 cursor-pointer transition-all duration-300"
     >
@@ -25,7 +29,7 @@ const ScrollToTopButton = () => {
           d="M5 10l7-7m0 0l7 7m-7-7v18"
         />
       </svg>
-    </button>
+    </motion.button>
   );
 };
 
