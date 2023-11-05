@@ -38,9 +38,13 @@ const Header = () => {
           className="relative top-20 block mx-auto custom-bounce animate-duration-500"
           alt=""
         />
-        <div className="absolute w-full top-40">
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          className="absolute w-full top-40"
+        >
           {startAnimation && <Lottie animationData={frame} loop={false} />}
-        </div>
+        </motion.div>
       </motion.div>
 
       <div className="px-10 relative z-50 pt-10 pb-4 w-[85%] -mt-16 rounded-[20px] mx-auto bg-white font-helvetica flex border-[2px] border-black justify-around items-center">
