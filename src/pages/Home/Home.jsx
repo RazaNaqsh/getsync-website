@@ -9,7 +9,7 @@ import Services from "../../components/Services";
 
 const Home = () => {
   return (
-    <div className="bg-[url('assets/bgpage.jpg')] bg-fixed bg-center bg-cover relative">
+    <div className="bg-[url('assets/bgpage.jpg')] overflow-x-hidden bg-fixed bg-center bg-cover relative">
       <div className="absolute inset-0 bg-white bg-opacity-80 -z-0"></div>
       <div className="relative z-20">
         <Hero />

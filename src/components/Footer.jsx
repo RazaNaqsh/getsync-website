@@ -32,7 +32,7 @@ const Footer = () => {
           Privacy
         </p>
       </div>
-      <div className="w-[70%]  h-[460px] p-4">
+      <div className="w-[70%] hidden lg:block h-[460px] p-4">
         <div className="flex justify-between items-start">
           <div>
             <div className="grid grid-cols-2 grid-rows-2 gap-4 px-6">

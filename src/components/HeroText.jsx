@@ -4,9 +4,9 @@ import TypeWriterText from "./TypeWriterText";
 
 const Hero = () => {
   return (
-    <div className=" flex justify-center items-center h-[450px] w-full ">
-      <div className="mt-28  h-[185px] ">
-        <div className="h-[120px]">
+    <div className=" flex justify-center mt-28 lg:mt-0 lg:items-center h-[330px] md:h-[450px] w-full">
+      <div className="lg:mt-28 h-[185px] ">
+        <div className="h-[120px]  mx-6 md:mx-0">
           <motion.h2
             initial={{ y: -50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
@@ -14,12 +14,12 @@ const Hero = () => {
               delay: 3.3,
               duration: 1,
             }}
-            className=" leading-6 text-[#FFED48] text-center text-[30px] font-helvetica"
+            className=" leading-6 text-[#FFED48] text-center py-[2px] px-[15px]  w-fit lg:w-full rounded-[12px] bg-black md:bg-transparent text-[16px] lg:text-[30px] font-helvetica"
           >
-            A Community where
+            A Community Where
           </motion.h2>
           <motion.h1
-            className=" font-helvetica text-center text-white font-[600] text-[60px] tracking-[2px]"
+            className=" font-helvetica mt-3 md:mt-0 md:text-center text-white font-[600] text-[45px] md:text-[60px] tracking-[2px] leading-[45px] md:leading-none"
             initial={{ opacity: 0, scale: 0.85 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.9, delay: 4 }}
@@ -31,7 +31,7 @@ const Hero = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 5 }}
-          className=" w-[540px] text-white  mx-auto text-center text-[19px]"
+          className="mt-6 md:mt-0 w-[300px] md:w-[540px] text-white mx-6 md:mx-auto md:text-center text-[17px] md:text-[19px] leading-[22px] md:leading-0"
         >
           <Typewriter
             words={[
