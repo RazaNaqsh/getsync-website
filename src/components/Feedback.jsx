@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
-import { EffectCoverflow, Pagination } from "swiper/modules";
+import { Autoplay, EffectCoverflow, Pagination } from "swiper/modules";
 
 import profile from "../assets/profile.png";
 import quoteOpen from "../assets/quoteOpen.svg";
@@ -47,8 +47,9 @@ const Feedback = () => {
         centeredSlides={true}
         slidesPerView={"auto"}
         watchSlidesProgress={true}
-        initialSlide={1}
-        modules={[EffectCoverflow, Pagination]}
+        initialSlide={0}
+        autoplay={{ delay: 3000 }}
+        modules={[EffectCoverflow, Pagination, Autoplay]}
         className="mySwiper mx-auto text-white font-kite"
       >
         {slides.map((card) => (

@@ -9,7 +9,7 @@ const Services = () => {
         </h1>
       </div>
 
-      <div className="flex flex-col md:flex-col justify-center gap-12 p-4 tracking-wide ">
+      <div className="flex flex-col md:flex-row justify-center gap-12 p-4 tracking-wide ">
         <div className="bg-[#7B209B] border-2 border-black border-r-4 border-b-5 md:w-[595px] md:h-[500px] rounded-[20px] px-[30px] py-[20px]">
           <h1 className="text-[#FFED48] font-semibold text-[16px] md:text-[40px] text-center mb-2">
             STARTUPS
