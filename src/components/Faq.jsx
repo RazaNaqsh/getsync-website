@@ -21,7 +21,9 @@ const Faq = () => {
   ];
   return (
     <div className="py-10">
-      <h1 className="font-sedan text-[48px] text-center">FREQUENTLY ASKED</h1>
+      <h1 className="font-sedan text-[32px] md:text-[48px] text-center">
+        FAQs
+      </h1>
       <div className="w-[80%] mx-auto mt-10 mb-10">
         <Accordion variant="splitted">
           {content.map((c) => (
@@ -40,7 +42,7 @@ const Faq = () => {
               indicator={<IndicatorOpen />}
               className="font-noto"
             >
-              <p className="px-8 pb-6 font-normal text-[20px] font-helvetica">
+              <p className="md:px-8 md:pb-6 font-normal text-[13px] md:text-[20px] font-helvetica">
                 {c.desc}
               </p>
             </AccordionItem>

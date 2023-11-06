@@ -10,7 +10,7 @@ const Footer = () => {
     e.preventDefault();
   };
   return (
-    <div className="relative  bg-[#232323] flex items-center w-full gap-24 py-[64px] px-[108px] text-white">
+    <div className="relative  bg-[#232323] flex flex-col md:flex-row items-center w-full gap-24 py-[64px] px-[108px] text-white">
       <div className="h-[540px] w-[400px] bg-[#000000] rounded-[16px] p-[30px]">
         <h3 className="text-[#FFED48] text-[10px] font-helvetica font-light">
           FEEDBACK
@@ -32,7 +32,7 @@ const Footer = () => {
           Privacy
         </p>
       </div>
-      <div className="w-[70%] hidden lg:block h-[460px] p-4">
+      <div className="w-[70%]  h-[460px] p-4">
         <div className="flex justify-between items-start">
           <div>
             <div className="grid grid-cols-2 grid-rows-2 gap-4 px-6">
