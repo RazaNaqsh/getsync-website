@@ -1,4 +1,4 @@
-import Connections from "../../components/Connections";
+import { useEffect, useState } from "react";
 import Faq from "../../components/Faq";
 import Feedback from "../../components/Feedback";
 import Footer from "../../components/Footer";
@@ -7,15 +7,25 @@ import JoinSection from "../../components/JoinSection";
 import ScrollToTopButton from "../../components/ScrollToTopButton";
 import Services from "../../components/Services";
 
-const Home = () => {
+const Home = ({
+  isLoaderDone,
+  handleImageLoad,
+  shouldRunAnimation,
+  setShouldRunAnimation,
+}) => {
   return (
     <div className="bg-[url('assets/bgpage.jpg')] overflow-x-hidden bg-fixed bg-center bg-cover relative">
       <div className="absolute inset-0 bg-white bg-opacity-80 -z-0"></div>
       <div className="relative z-20">
-        <Hero />
+        <Hero
+          isLoaderDone={isLoaderDone}
+          handleImageLoad={handleImageLoad}
+          shouldRunAnimation={shouldRunAnimation}
+          setShouldRunAnimation={setShouldRunAnimation}
+        />
+
         <JoinSection />
         <Services />
-        {/* <Connections /> */}
         <Faq />
         <Feedback />
         <Footer />

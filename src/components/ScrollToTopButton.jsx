@@ -11,9 +11,9 @@ const ScrollToTopButton = () => {
     <motion.button
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      transition={{ delay: 2 }}
+      transition={{ delay: 5 }}
       onClick={scrollToTop}
-      className="z-20 fixed bottom-4 right-4 bg-purple-600 text-white rounded-full p-2 hover:bg-purple-500 cursor-pointer transition-all duration-300"
+      className="z-[9] fixed bottom-4 right-4 bg-purple-600 text-white rounded-full p-2 hover:bg-purple-500 cursor-pointer transition-all duration-300"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
